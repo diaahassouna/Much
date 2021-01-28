@@ -1,0 +1,74 @@
+/* Common Styles */
+* {
+    padding: 0%;
+    margin: 0%;
+  }
+  
+  body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    font-family: sans-serif;
+  }
+  /* Common Styles End */
+  
+  /* Form */
+  .Form {
+    width: 500px;
+    padding-bottom: 40px;
+    border-radius: 7px;
+    background-color: lightseagreen;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  /* Form Style End */
+  
+  /* Display */
+  .display {
+    width: 40%;
+    height: 40px;
+    box-sizing: border-box;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding: 10px;
+    font-size: 2rem;
+    background-color: floralwhite;
+    color: black;
+    text-align: left;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    -ms-transform: translateX(+5%);
+    transform: translateX(+5%);
+  }
+  /* Display Styles End */
+      
+  /* Result */
+  .result {
+    width: 120px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: black;
+    color: floralwhite;
+    font-size: x-large;
+    margin: auto;
+    -ms-transform: translateX(+150%);
+    transform: translateX(+150%);
+  }
+
+  .result:hover {
+    cursor: pointer;
+  }
+  /* Result Style End */
+
+  /* Text for Input Style */
+  .text {
+      font-size: larger;
+      -ms-transform: translateX(+5%);
+      transform: translateX(+5%);
+
+  }
+  /* Text Style End */
